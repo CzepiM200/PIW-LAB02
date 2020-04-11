@@ -1,0 +1,24 @@
+nav {
+    margin-bottom: 1%;
+}
+
+form {
+    margin-bottom: 2%;
+}
+
+.invalid {
+    color: red;
+}
+
+.valid {
+    color: seagreen;
+}
+
+.creature {
+    visibility: visible;
+    height: 230px;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Lab2</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie1.html">Zadanie 1</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie2.html">Zadanie 2</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie3.html">Zadanie 3</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie4.html">Zadanie 4</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie5.html">Zadanie 5</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="zadanie6.html">Zadanie 6</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row justify-content-around">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <b>Zadanie 4 - Dynamiczne podmienianie obrazów</b><br>
+                    <hr>
+                    Utworzyć stronę zawierającą przegląd "dziwnych" zwierząt. W spakowanym pliku znajduje się 10 obrazków zwierząt oraz po 10 tesktów w postaci normalnej (out) i inwersyjnej (over). Używając tych bitmap opracuj własną stronę zawierającą z prawej strony menu wszytskich zwierząt. Po najechaniu myszką (zdarzenie mouseover) na wybraną nazwę: nazwa zmienia się na wersję inwersyjną (over) i po prawej stronie pojawia się odpowiadający nazwie rysunk zwierzęcia. Przykładowy wygląd strony (wersja bez dynamiki): <a href="http://www.zsk.iiar.pwr.wroc.pl/zsk/repository/podyplomowe/www1/lab8/ex3.gif">link</a>.
+                </div>
+                <div class="card-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div  class="col-8 text-center">
+                                <img id="creature" class="" src="">
+                            </div>
+                            <div id="menu" class="col-2 text-center">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/zadanie4.js"></script>
+</body>
+
+</html>
