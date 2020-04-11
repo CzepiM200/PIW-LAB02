@@ -56,8 +56,12 @@
                 <div class="card-body text-center">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div id="game"class="col-12 text-center">
-                                
+                            <h4 id="score">Score: 0</h4>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div id="game" class="col-12" onclick="onClickEvent(this)">
+                                <img id="good" onclick="onClickEvent(this)" class="inactivePokemon" src="../images/game/creature1.png" height="128px" width="128px" >
+                                <img id="bad" onclick="onClickEvent(this)" class="inactivePokemon" src="../images/game/creature2.png" height="128px" width="128px" >
                             </div>
                         </div>
                     </div>
