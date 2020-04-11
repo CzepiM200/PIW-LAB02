@@ -32,6 +32,13 @@ form {
     display: none;
 }
 
+.menu {
+    text-align: center;
+    border-style: solid;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+
 #game {
     max-width: 400px;
     width: 400px;
